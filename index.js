@@ -4,7 +4,7 @@ const authRoute = require('./routes/auth');
 const mongoose = require('mongoose');
 const postsPageRoute = require('./routes/posts');
 require('dotenv').config();
-// codes
+// codesmongoose
 mongoose.connect(process.env.DB_CONNECT, {
     useUnifiedTopology: true,
     useNewUrlParser: true,
