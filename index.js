@@ -8,7 +8,7 @@ require('dotenv').config();
 mongoose.connect(process.env.DB_CONNECT, {
     useUnifiedTopology: true,
     useNewUrlParser: true,
-    }).then(()=>console.log('Database Connected!!')).catch(err=>console.log("Auth failed"));
+    }).then(()=>console.log('Database Connected!!')).catch(err=>console.log("Authentication failed"));
 
 app.use(express.json());
 
